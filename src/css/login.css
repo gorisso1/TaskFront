@@ -1,0 +1,59 @@
+.form-container-login {
+    border: 2px solid #161616;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px; 
+    border-radius: 10px; 
+    width: 400px;
+    margin: 0 auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #dce2fb;
+}
+
+.title {
+    margin: 0 auto;
+    width: 253px;
+    padding: 15px;
+}
+
+.custom-alert {
+    background-color: #f44336; /* Красный цвет фона */
+    color: white; /* Белый цвет текста */
+    padding: 15px; /* Внутренний отступ */
+    margin-bottom: 15px; /* Отступ снизу */
+    position: relative; /* Позиция элемента */
+  }
+  
+  .close-button {
+    position: absolute; /* Позиция кнопки закрытия */
+    top: 0;
+    right: 0;
+    padding: 1px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #d32f2f; /* Цвет кнопки закрытия при наведении */
+  }
+
+  .login{
+    border-width: 2px;
+    border-color: #202020;
+  }
+
+  .login:focus{
+    border-color: #202020;
+    border-width: 2px;
+    box-shadow: none;
+  }
+
+  .button{
+    background-color: #273870;
+    border-color: #273870;
+  }
+
+
+
+  

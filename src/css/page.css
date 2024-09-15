@@ -1,0 +1,220 @@
+.header{
+    padding-top: 30px;
+    font-size: 2em;
+    color: #273870;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.spot-list{
+    border: 2px solid #141414;
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    background-color: #dce2fb;
+
+    
+    
+}
+.spot-list-admin{
+    padding: 30px;
+    margin-bottom: 40px;
+    max-width: 700px;
+    width: 100%;
+}
+.spot-list-admin-task{
+    padding: 30px;
+    margin-bottom: 40px;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    
+}
+
+.spot-botton{
+    border-width: 2px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    border-radius: 10px;
+    background-color: white;
+
+
+}
+
+.admin-botton{
+    max-width: 700px;
+    width: 100%;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 5%;
+    width: 100%;
+
+    
+   
+}
+
+.admin-botton-color{
+    background-color: #273870;
+
+}
+
+.spot-name{
+    font-size: 2em;
+    color: #3a3a3a;
+   
+}
+
+.comment-textarea{
+    border-width: 2px;
+    border-color: #141414;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.comment-textarea::-webkit-scrollbar{
+    width: 0px;
+}
+
+.comment-textarea:focus{
+    border-color: #1b1b1b;
+    border-width: 2px;
+    box-shadow: none;
+}
+
+.buttons-timer{
+    margin-top: 20px;
+}
+
+
+.search-list{
+    border: 2px solid #141414;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    width: 100%;
+    max-height: 460px; /* Установите желаемую максимальную высоту */
+    overflow-y: auto;
+    background-color: #dce2fb;
+    
+    
+}
+
+.search-task-list{
+    border: 2px solid #141414;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 1230px;
+    width: 100%;
+    max-height: 1000px; /* Установите желаемую максимальную высоту */
+    overflow-y: auto;
+    background-color: #dce2fb;
+    
+    
+}
+
+.search-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Стилизация "бегунка" (ползунка) прокрутки */
+  .search-list::-webkit-scrollbar-thumb {
+    background-color: #141414;
+    border-radius: 4px;
+  }
+  
+  /* Стилизация трека (фона) прокрутки */
+  .search-list::-webkit-scrollbar-track {
+    background-color: #c6d2ff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+
+.timer{
+    font-size: 2rem;
+}
+
+.task-list-title{
+    border-width: 2px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-color:#141414;
+    margin: 1px;   
+    border-bottom-width: 0px;
+    background-color: #ffffff;
+    
+}
+.task-list-title:disabled{
+    border-color: #000000;
+    color: #000000;
+    opacity: unset;
+    background-color: #ffffff;
+}
+
+.task-list-admin-comment{
+    background-color: #ffffff;
+    border-width: 2px;
+    margin: 1px;
+    border-bottom-width: 0px;
+
+}
+.task-list-admin-comment:disabled{
+    opacity: unset;
+    border-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.task-list-admin{
+    background-color: #ffffff;
+    border-width: 2px;
+    margin: 1px;
+
+}
+.task-list-admin:disabled{
+    opacity: unset;
+    border-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
+}
+.task-list-finish{
+    border-width: 2px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1px;
+  
+}
+
+.task-list-time{
+    border-width: 2px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-color:#141414;
+    margin: 1px;   
+    border-top-width: 0px;
+
+    background-color: #ffffff;
+    
+}
+.task-list-time:disabled{
+    border-color: #000000;
+    color: #000000;
+    opacity: unset;
+    background-color: #ffffff;
+}
